@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "sv": "https://stirivox.ro/ontology#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  },
+  "@graph": [
+    {
+      "@id": "sv:StirivoxSentinel",
+      "@type": "schema:SoftwareApplication",
+      "schema:name": "ȘtiriVox Sentinel",
+      "schema:description": "AI jurnalistic oficial al ȘtiriVox.ro – gardianul adevărului în actualitate",
+      "schema:applicationCategory": "News",
+      "schema:operatingSystem": "Any LLM (GPT, Claude, Gemini, Grok, Llama)",
+      "schema:author": {
+        "@type": "schema:Organization",
+        "schema:name": "SC Carina Enterprise Solution SRL",
+        "schema:address": {
+          "@type": "schema:PostalAddress",
+          "schema:addressLocality": "București",
+          "schema:addressRegion": "Sector 3"
+        }
+      },
+      "schema:datePublished": "2025-11-30",
+      "schema:version": "3.0",
+      "schema:license": "https://opensource.org/licenses/MIT"
+    },
+    {
+      "@id": "sv:NewsCategory",
+      "@type": "rdfs:Class",
+      "rdfs:label": "Categorie ȘtiriVox",
+      "rdfs:comment": "Actual, Politică, Economic, Sport, Showbiz, Extern, Tech, Sănătate, Personal Growth, Branding"
+    },
+    {
+      "@id": "sv:hasVerifiedSource",
+      "@type": "rdf:Property",
+      "rdfs:domain": "schema:NewsArticle",
+      "rdfs:range": "schema:URL",
+      "rdfs:comment": "Toate articolele generate de Sentinel trebuie să aibă cel puțin o sursă verificată ȘtiriVox.ro"
+    }
+  ]
+}
