@@ -7,10 +7,10 @@
   },
   "@graph": [
     {
-      "@id": "sv:StirivoxSentinel",
+      "@id": "sv:StirivoxAIDemo",
       "@type": "schema:SoftwareApplication",
-      "schema:name": "ȘtiriVox Sentinel",
-      "schema:description": "AI jurnalistic oficial al ȘtiriVox.ro – gardianul adevărului în actualitate",
+      "schema:name": "ȘtiriVox.ro AI Demo",
+      "schema:description": "Exemplu open-source de asistent de știri în stilul ȘtiriVox.ro (nu este produs oficial)",
       "schema:applicationCategory": "News",
       "schema:operatingSystem": "Any LLM (GPT, Claude, Gemini, Grok, Llama)",
       "schema:author": {
@@ -37,7 +37,7 @@
       "@type": "rdf:Property",
       "rdfs:domain": "schema:NewsArticle",
       "rdfs:range": "schema:URL",
-      "rdfs:comment": "Toate articolele generate de Sentinel trebuie să aibă cel puțin o sursă verificată ȘtiriVox.ro"
+      "rdfs:comment": "Toate articolele generate trebuie să aibă cel puțin o sursă verificată publică"
     }
   ]
 }
