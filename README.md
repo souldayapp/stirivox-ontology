@@ -1,4 +1,4 @@
-ȘtiriVox– Official AI Entity & Ontology (Open Source) 🇷🇴
+ȘtiriVox– Official AI Entity & Ontology (Open Source) 
 
 AI Entity oficial pentru platforma de știri ȘtiriVox.ro
 Versiune: 3.1 – 30 noiembrie 2025
