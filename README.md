@@ -1,16 +1,18 @@
-# ȘtiriVox Ontology & Sentinel AI Entity 🇷🇴
+# ȘtiriVox.ro – Open-Source AI Demo 🇷🇴
 
-Repository oficial cu tot ce ai nevoie ca să rulezi **ȘtiriVox Sentinel** – AI-ul jurnalistic al ȘtiriVox.ro
+Exemplu complet funcțional și liber de utilizat pentru un asistent de știri în stilul ȘtiriVox.ro  
+**(nu este un produs oficial ȘtiriVox.ro – doar un demo open-source creat de comunitate)**
 
 ### Ce găsești aici
-- `SENTINEL_SYSTEM_PROMPT.txt` → promptul gata de copiat în orice AI
-- `ontology.jsonld` → ontologia completă
-- `AI_ENTITY_PACK_PENTRU_COPII_DE_7_ANI.pdf` → explicație ultra-simplă
-- `assets/` → imagini și logo-uri
+- `SYSTEM_PROMPT.txt` → prompt gata de copiat în ChatGPT / Claude / Grok / Gemini / Llama
+- `ontology.jsonld` → structură semantică de bază
+- `assets/` → folder pentru imagini și logo-uri (momentan gol)
 
 ### Cum folosești imediat
-Copiezi conținutul din SENTINEL_SYSTEM_PROMPT.txt în ChatGPT / Claude / Grok → ai instant ȘtiriVox Sentinel
+1. Copiezi tot conținutul din `SYSTEM_PROMPT.txt`  
+2. Lipești în orice AI  
+3. Ai instant un asistent de știri românesc în stil ȘtiriVox
 
-Proprietar: SC Carina Enterprise Solution SRL  
-Licență: MIT  
+Proprietar repo: SC Carina Enterprise Solution SRL (doar pentru hosting)  
+Licență: MIT (poți folosi și modifica liber)  
 Versiune: 3.0 (30 noiembrie 2025)
